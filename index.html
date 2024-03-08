@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Todo el tema de la meta informacion para el navegador -->
+    <!-- Etiqueta metatags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name ="autor" content="Christian Aguilar">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/styles.css">   
+    <!--La forma de hacer un estilo directo
+    <style>
+        body {background-color: powderblue;}
+        h1   {color: blue;}
+        p    {color: red;}
+    </style>
+    -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+</head>
+<body>
+    <!--todo lo relacionado con la pagina - la parte visual -->
+    <main>
+        <!-- Encabezado -->
+        <header>
+            <nav>
+                <div class="container">
+                    <div class="logo">
+                        <a href="index.html">C<span>A</span></a>
+                    </div>
+                    <div class="links">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#services">Servicios</a></li>
+                            <li><a href="#portofolio">Portafolio</a></li>
+                            <li><a href="#about">Acerca de</a></li>
+                            <li><a href="#testimonials">Testimonios</a></li>
+                            <li><a href="#contact">Contacto</a></li>
+                            <li><a href="#https://wa.me/+573152592676" 
+                                class="active" 
+                                target="_blank"
+                                >Wahtsapp</a></li>
+                        </ul>
+                    </div>
+                    <div class="hamburger-menu">
+                      <i class="fas fa-bars fa-lg"></i>  
+                    </div>
+                </div>
+            </nav>
+    
+            <!-- Contenido para el header -->
+            <div class="header-content">
+                <!--vamos a tener el contenedor y las dos columnas-->
+                <div class="container grid-2">
+                    <div class="column-1">
+                        <h1 class="header-title">Christian <span>Aguilar</span></h1>
+                        <p class="text">¡Hola! Soy Christian Aguilar, un apasionado desarrollador web y diseñador con experiencia en HTML, CSS y JavaScript. ¡Déjame convertir tus ideas en realidad y crear experiencias web increíbles juntos!
+                        </p>
+                        <a href="https://drive.google.com/file/d/1-zTBEvw4qX6VjbIisp2t61drWH8xnAFF/view"
+                            target="_blank" 
+                            download
+                        >
+                            <button class="btn">Descargar CV</button>
+                        </a>
+                    </div>
+                    <!-- Imagen principal para el header -->
+                    <div class="column-2 image">
+                        <img
+                            src="./img/shapes/points2.svg"
+                            alt=""
+                            class="points points2"
+                        >
+                        <img
+                            src="./img/person.png"
+                            alt=""
+                            class="img-element z-index"
+                        >
+                    </div>
+                    
+                </div>
+            </div>
+        </header>
+
+      <!-- Sección de servicios -->
+      <section class="services section" id="services">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="Lo que hago">Servicios</h3>
+            <p class="text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias,
+              vero?
+            </p>
+          </div>
+
+          <div class="cards">
+            <div class="card" data-card="UI/UX">
+              <div class="card-content z-index">
+                <img src="./img/design-icon.svg" class="icon" alt="" />
+                <h3 class="title-sm">Diseño WEB</h3>
+                <p class="text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
+                  est suscipit itaque?
+                </p>
+                <a href="#" class="btn small">Ver más</a>
+              </div>
+            </div>
+
+            <div class="card" data-card="Code">
+              <div class="card-content z-index">
+                <img src="./img/code-icon.svg" class="icon" alt="" />
+                <h3 class="title-sm">Desarrollo WEB</h3>
+                <p class="text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolores suscipit nobis dolore?
+                </p>
+                <a href="#" class="btn small">Ver más</a>
+              </div>
+            </div>
+
+            <div class="card" data-card="App">
+              <div class="card-content z-index">
+                <img src="./img/app-icon.svg" class="icon" alt="" />
+                <h3 class="title-sm">Desarrollo de Apps</h3>
+                <p class="text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptatum hic veniam nihil.
+                </p>
+                <a href="#" class="btn small">Ver más</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+</body>
+</html>
